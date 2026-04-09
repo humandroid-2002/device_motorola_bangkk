@@ -7,3 +7,6 @@ ro.opa.device_model_id=motorola-bangkk
 
 # Motorola
 ro.mot.build.customerid=global
+
+# Maintainer Lunaris
+ro.lunaris.maintainer=Yama TG||@Medusa659
