@@ -13,3 +13,7 @@ ro.surface_flinger.set_idle_timer_ms=250
 
 # Radio
 ro.vendor.radio.imei.sv=26
+
+# Bluetooth
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
