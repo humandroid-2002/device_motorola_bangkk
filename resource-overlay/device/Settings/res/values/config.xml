@@ -67,4 +67,6 @@
     <string name="config_batteryDesignCapacity">/sys/class/power_supply/battery/charge_full_design</string>
     <string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>
 
+    <!-- Show Now Playing -->
+    <bool name="config_show_now_playing">true</bool>
 </resources>
