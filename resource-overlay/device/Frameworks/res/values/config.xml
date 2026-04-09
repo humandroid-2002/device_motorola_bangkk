@@ -289,4 +289,7 @@
 
     <!-- Battery temperature path -->
     <string name="config_sysBatteryTempPath">/sys/class/thermal/thermal_zone91/temp</string>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
