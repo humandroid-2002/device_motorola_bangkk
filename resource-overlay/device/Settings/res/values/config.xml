@@ -6,4 +6,14 @@
 <resources>
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar">65</integer>
+
+    <!-- Model and Hardware -->
+    <string name="lunaris_device_title">Device</string>
+    <string name="lunaris_processor_code_title">Processor</string>
+    <string name="lunaris_battery_type_title">Battery</string>
+    <string name="lunaris_screen_title">Screen</string>
+    <string name="lunaris_device_message">Moto G84</string>
+    <string name="lunaris_processor_code_message">Snapdragon 695</string>
+    <string name="lunaris_battery_type_message">5000 mAH</string>
+    <string name="lunaris_screen_message">P Oled 120 Hz</string>
 </resources>
