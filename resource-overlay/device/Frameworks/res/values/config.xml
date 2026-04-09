@@ -286,4 +286,7 @@
 
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
     <string name="config_defaultListenerAccessPackages" translatable="false">co.aospa.glyph</string>
+
+    <!-- Battery temperature path -->
+    <string name="config_sysBatteryTempPath">/sys/class/thermal/thermal_zone91/temp</string>
 </resources>
