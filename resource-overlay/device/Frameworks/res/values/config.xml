@@ -356,4 +356,7 @@
 
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Aerodactyl is capable enough to prefer the higher performance transition path. -->
+    <bool name="config_deviceSupportsHighPerfTransitions">true</bool>
 </resources>
