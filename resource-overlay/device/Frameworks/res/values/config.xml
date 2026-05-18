@@ -265,7 +265,7 @@
     <integer-array name="config_udfps_sensor_props" translatable="false">
         <item>540</item> <!-- sensorLocationX -->
         <item>2168</item> <!-- sensorLocationY -->
-        <item>91</item> <!-- sensorRadius -->
+        <item>61</item> <!-- sensorRadius -->
     </integer-array>
 
     <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
