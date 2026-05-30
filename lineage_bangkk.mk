@@ -28,8 +28,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=bangkk_g
 
 
-
-
+# true use ofox prebuilt boot.img false build boot.img as usual.
+FOX_USE_PREBUILT_BOOT := true
 
 # Lunaris
 TARGET_ENABLE_BLUR := true
