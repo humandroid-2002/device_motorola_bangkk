@@ -115,9 +115,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 
-# Inherit Moto Products (TimeWeather,motcam4,motapps,GameBar,ViperFX and Dolby)
+# Inherit Moto Products (TimeWeather,motcam4,motapps,GameBar,JamesDSP,ViperFX and Dolby)
 TARGET_MOTCAMERA4 := bangkk
 TARGET_USES_MOTCAMERA4 := true
+$(call inherit-product, packages/apps/JamesDSP/config.mk)
 $(call inherit-product, hardware/motorola/dolby/dolby.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
