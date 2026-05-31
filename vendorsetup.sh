@@ -15,6 +15,8 @@ clone_if_missing() {
   fi
 }
 
+clone_if_missing https://github.com/Fleur-Project/packages_apps_JamesDSP.git early packages/apps/JamesDSP
+clone_if_missing https://github.com/cyberknight777/android_packages_apps_DisplayFeatures.git master packages/apps/DisplayFeatures
 clone_if_missing https://gitlab.com/Yamavest12/vendor_motorola.git 16.2 vendor/motorola
 clone_if_missing https://github.com/humandroid-2002/vendor_lineage-priv.git lunaris_server vendor/lineage-priv
 clone_if_missing https://github.com/humandroid-2002/device_motorola_sm6375-common.git lunaris device/motorola/sm6375-common
