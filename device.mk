@@ -119,17 +119,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 
-# Inherit Moto Products (TimeWeather,motcam4,motapps,GameBar,JamesDSP,ViperFX and Dolby)
-TARGET_MOTCAMERA4 := bangkk
-TARGET_USES_MOTCAMERA4 := true
+# Inherit (GameBar,JamesDSP,ViperFX and Dolby)
 $(call inherit-product, packages/apps/JamesDSP/config.mk)
 $(call inherit-product, hardware/motorola/dolby/dolby.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
-$(call inherit-product, vendor/motorola/AudioRecorder/audiorecorder.mk) 
-$(call inherit-product, vendor/motorola/MotApps/motapps.mk)
-$(call inherit-product, vendor/motorola/TimeWeather/timeweather.mk)
-$(call inherit-product, vendor/motorola/MotCamera4-sm6375/motcamera4.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/bangkk/bangkk-vendor.mk)
